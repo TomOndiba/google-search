@@ -11,9 +11,13 @@ html, body {
 	height:100%;
 }
 
-a:link, a:visited {
+p a:link, p a:visited {
 	text-decoration: none;
 	color: #585858  ;
+}
+
+a:link, a:visited{
+	text-decoration: none;
 }
 
 a:hover {
@@ -150,7 +154,6 @@ a:hover {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 22px;
-	color: purple;
 }
 
 #searchResults h2, .link, .preview {
