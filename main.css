@@ -1,0 +1,229 @@
+* {
+	font-family: arial;
+	font-size: 13px;
+}
+/*
+	border: 1px dotted gray;
+*/
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #585858  ;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	min-height: 100%;
+	position: relative;
+}
+
+.header {
+	position: relative;
+	height: 60px;
+	background-color: #f1f1f1;
+	top: 0;
+	width: 100%;
+}
+
+#googleLogo {
+	position: relative;
+	top: 13px;
+	left: 14px;
+}
+
+#searchBox {
+	display: inline-block;
+	position: relative;
+	left: 23px;
+
+}
+
+#searchBox input:first-child {
+	position: relative;
+	height: 22px;
+	width: 590px;
+	background-image: url("http://i.imgur.com/jQHWBSm.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#searchBox a div {
+	position: relative;
+	display: inline-block;
+	height: 22px;
+	width: 22px;
+	left: -26px;
+	top: 6px;
+}
+
+#searchBox #submit {
+	position: relative;
+	width: 60px;
+	height: 30px;
+	top: 8px;
+	left: -31px;
+	background-image: url("http://i.imgur.com/jql7Rty.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#navigationShortcuts {
+	position: absolute;
+	/*left: 49%;*/
+	top: 22px;
+	right: 210px;
+
+}
+
+#navigationShortcuts img {
+	position: absolute;
+	top: -11px;
+	left: 47px;
+}
+
+#searchOptions {
+	position: relative;
+	width: 600px;
+	word-spacing: 28px;
+	left: 135px;
+	top: 23px;
+}
+
+#searchOptions p a:first-child {
+	color: #e14b39;
+	font-weight: bold;	
+}
+
+#searchOptions p span {
+	word-spacing: 1px;
+	color: #585858;
+}
+
+#searchOptions #line {
+	margin-top: 5em;
+	margin-left: -10em;
+}
+
+.body {
+	margin-top: 60px;
+	padding-bottom: 90px;
+	height: 1270px;
+}
+
+#searchConfigure {
+	position: absolute;
+	right: 27px;
+	top: 68px;
+}
+
+.line {
+	border: none;
+	height: 1px;
+	color: #ebebeb  ;
+	background: #ebebeb  ;
+}
+
+#searchInfo {
+	position: relative;
+	height: 22px;
+	width: 242px;
+	left: 135px;
+}
+
+#searchResults {
+	position: relative;
+	height: 940px;
+	width: 508px;
+	left: 137px;
+	top: 18px;
+}
+
+.headlink  {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 22px;
+	color: purple;
+}
+
+#searchResults h2, .link, .preview {
+	margin: 0;
+}
+
+.result {
+	height: 94px;
+	width: 508px;
+}
+
+.link {
+	color: #006621;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#searchResults a:visited {
+	color: purple;
+}
+
+
+.preview {
+	line-height: 18px;
+}
+
+#relatedSearches {
+	width: 508px;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+#relatedSearchesHeader {
+	line-height: 18px;
+	font-size: 18px;
+	color: #808080;
+	padding-bottom: 6px;
+}
+
+#googleMorePages {
+	position: relative;
+	left: 100px;
+	top: 10px;
+}
+
+#googleMorePages td {
+	color: purple;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	height: 85px;
+	background-color: #f1f1f1;
+	width: 100%;
+}
+
+.footer img {
+	position: relative;
+	left: 130px;
+	top: 18px;
+}
+/*
+What we learned so far:
+Using container and (html + body) properties to:
+	Creating header
+	creating footer
+Distinction between relative and absolute
+	Importance of container needing a non-static position to allow children to adopt positions
+Placing image in a textbox
+
+left: 23px;
+height: 22px;
+width: 590px;
+*/
+
